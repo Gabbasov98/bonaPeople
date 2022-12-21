@@ -1,0 +1,1047 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+    <title>Личный кабинет</title>
+</head>
+
+
+<body class="page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+    <div class="header__inner">
+        <div class="header__left">
+            <a href="" class="header__logo logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <div class="header__restaurant">
+                <span class="header__restaurant-title">Ресторан:</span>
+                <span class="header__restaurant-title2">Bona Capona</span>
+                <button
+                        class="header__restaurant-btn"
+                        data-bs-toggle="modal" data-bs-target="#restaurantModal"
+                >
+                    <span class="header__restaurant-btn-text1">Bona Capona</span>
+                    <span class="header__restaurant-btn-text2">Сменить</span>
+                </button>
+            </div>
+        </div>
+        <div class="header__right">
+            <a href="tel:+78126657070" class="header__phone">
+                <img src="img/phone.svg" alt="">
+                <span>+7 (812) 665-70-70</span>
+            </a>
+            <div class="header__buttons">
+                <button class="header__btn _open-search">
+                    <img class="header__search1" src="img/search.svg" alt="">
+                    <img class="header__search2" src="img/close.svg" alt="">
+                </button>
+                <button class="header__btn">
+                    <img src="img/login.svg" alt="">
+                </button>
+            </div>
+            <div class="header__cart">
+                <a href="" class="header__cart-icon">
+                    <img src="img/cart.png" alt="">
+                </a>
+                <span class="header__cart-price">0 ₽</span>
+            </div>
+            <button class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <div class="menu__wrap">
+        <div class="menu__top">
+            <a href="" class="menu__logo logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <button class="menu__close _close-menu">
+                <img src="img/close.svg" alt="">
+            </button>
+        </div>
+        <div class="menu__links">
+            <a href="" class="menu__link medium-weight">
+                Новинки
+            </a>
+            <a href="" class="menu__link medium-weight">
+                Хиты Bona
+            </a>
+        </div>
+
+        <div class="menu__links2">
+            <a href="" class="menu__link">
+                Салаты
+            </a>
+            <a href="" class="menu__link">
+                Закуски
+            </a>
+            <a href="" class="menu__link">
+                Супы
+            </a>
+            <a href="" class="menu__link">
+                Паста
+            </a>
+            <a href="" class="menu__link">
+                Пицца
+            </a>
+            <a href="" class="menu__link">
+                Bona Суши
+            </a>
+            <a href="" class="menu__link">
+                Горячие блюда
+            </a>
+            <a href="" class="menu__link">
+                Равиоли/ Лазанья
+            </a>
+            <a href="" class="menu__link">
+                Гарниры
+            </a>
+            <a href="" class="menu__link">
+                Десерты
+            </a>
+            <a href="" class="menu__link">
+                Детское меню
+            </a>
+            <a href="" class="menu__link">
+                Сеты
+                <span class="menu__link-hint">с выгодой до 60%</span>
+            </a>
+            <a href="" class="menu__link">
+                Напитки
+            </a>
+            <a href="" class="menu__link">
+                Соусы и добавк
+            </a>
+            <a href="" class="menu__link">
+                Хлеб/ фокачча
+            </a>
+        </div>
+
+        <a href="tel:+78126657070" class="header__phone">
+            <img src="img/phone.svg" alt="">
+            <span>+7 (812) 665-70-70</span>
+        </a>
+        <div class="header__address">
+            <img src="img/location.svg" alt="">
+            <span>Санкт-Петербург, Зверинская улица, 50</span>
+        </div>
+    </div>
+    <div class="menu__bg _close-menu"></div>
+</div>
+
+<div class="header-search">
+    <div class="container">
+        <fieldset class="header-search__field fg">
+            <img src="img/search.svg" class="fg__icon" alt="">
+            <input type="text" placeholder="Поиск">
+        </fieldset>
+
+        <h2 class="header-search__title">салаты</h2>
+        <div class="header-search__grid">
+            <div class="search-card">
+    <a href="" class="search-card__img">
+        <img src="img/dish.webp" alt="">
+    </a>
+    <a href="" class="search-card__title">
+        Салат с хрустящими баклажанами и сыром страчателла
+    </a>
+    <div class="search-card__bottom">
+        <div class="search-card__info">
+            <div class="search-card__price">455 ₽</div>
+            <div class="search-card__weight">140 гр</div>
+        </div>
+        <button class="search-card__btn m-btn m-btn-black-outline">
+            В корзину
+        </button>
+    </div>
+</div>
+
+
+            <div class="search-card">
+    <a href="" class="search-card__img">
+        <img src="img/dish2.webp" alt="">
+    </a>
+    <a href="" class="search-card__title">
+        БРУСКЕТтА <br> С ПАШТЕТОМ
+    </a>
+    <div class="search-card__bottom">
+        <div class="search-card__info">
+            <div class="search-card__price">455 ₽</div>
+            <div class="search-card__weight">140 гр</div>
+        </div>
+        <button class="search-card__btn m-btn m-btn-black-outline">
+            В корзину
+        </button>
+    </div>
+</div>
+
+
+            <div class="search-card">
+    <a href="" class="search-card__img">
+        <img src="img/dish3.webp" alt="">
+    </a>
+    <a href="" class="search-card__title">
+        БРУСКЕТтА <br> С ТОМАТАМИ
+    </a>
+    <div class="search-card__bottom">
+        <div class="search-card__info">
+            <div class="search-card__price">455 ₽</div>
+            <div class="search-card__weight">140 гр</div>
+        </div>
+        <button class="search-card__btn m-btn m-btn-black-outline">
+            В корзину
+        </button>
+    </div>
+</div>
+
+
+            <div class="search-card">
+    <a href="" class="search-card__img">
+        <img src="img/dish4.webp" alt="">
+    </a>
+    <a href="" class="search-card__title">
+        БРУСКЕТтА <br> С ЛОСОСЕМ
+    </a>
+    <div class="search-card__bottom">
+        <div class="search-card__info">
+            <div class="search-card__price">455 ₽</div>
+            <div class="search-card__weight">140 гр</div>
+        </div>
+        <button class="search-card__btn m-btn m-btn-black-outline">
+            В корзину
+        </button>
+    </div>
+</div>
+
+
+        </div>
+        <div class="header-search__nav">
+            <a href="" class="header-search__all btn-line">
+                сАЛАТ - ВСЕ РЕЗУЛЬТАТЫ (72)
+            </a>
+        </div>
+    </div>
+</div>
+
+        </header>
+        <main class="content">
+
+            <section class="lk">
+                <div class="container">
+                    <h1 class="lk__title display2">
+                        Личный кабинет
+                    </h1>
+                    <div class="lk__grid">
+                        <div class="lk__left">
+                            <div class="lk-sidebar">
+    <a href="" class="lk-sidebar__link _active">
+        <img src="img/user.svg" alt="">
+        <span>Профиль</span>
+    </a>
+    <a href="" class="lk-sidebar__link">
+        <img src="img/cart2.svg" alt="">
+        <span>История заказов</span>
+    </a>
+    <a href="" class="lk-sidebar__link">
+        <img src="img/gift.svg" alt="">
+        <span>Бонусная система</span>
+    </a>
+    <a href="" class="lk-sidebar__link">
+        <img src="img/address.svg" alt="">
+        <span>Мои адреса</span>
+    </a>
+</div>
+
+                        </div>
+                        <div class="lk__right">
+                            <div class="bonus">
+                                <div class="bonus-card">
+                                    <div class="bonus-card__top">
+                                        <div class="bonus-card__content">
+                                            <div class="bonus-card__bank">4679 6489 9800 0918</div>
+                                            <div class="bonus-card__title">На счету</div>
+                                            <div class="bonus-card__ball display5">580 баллов</div>
+                                        </div>
+                                        <div class="bonus-card__qr">
+                                            <img src="img/qr.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="bonus-card__percents">
+                                        <span class="bonus-card__percent">10%</span>
+                                        <span
+                                                class="bonus-card__percent bonus-card__percent--float"
+                                                style="left: 70%;"
+                                        >17%
+                                        </span>
+                                        <span class="bonus-card__percent">20%</span>
+                                    </div>
+                                    <div class="bonus-card__progress">
+                                        <span style="width: 70%;"></span>
+                                    </div>
+                                    <div class="bonus-card__hint display6">1 350  руб. до кэшбека 18%</div>
+                                </div>
+                                <h1 class="bonus__title display3">Бонусная система</h1>
+                                <div class="bonus__desc">
+                                    <p>- При вступлении в программу лояльности участник получает кэшбек в размере 10% от суммы счёта во всех ресторанах Bona People Group: BONA CAPONA, MZE, MUST, СКЛАД 22.</p>
+                                    <p>- Повышение размера процента cash-back в диапазоне с 10% до 20% происходит поэтапно: cash-back увеличивается на 1% за каждые потраченные 10 000 рублей.</p>
+                                    <p>- Праздничный кэшбек: в честь дня рождения увеличиваем кэшбек до 30% на еду и 40% на бутылочный алкоголь, вне зависимости от текущего статуса. Предложение действительно в течение 7 дней до и 7 дней после дня рождения.</p>
+                                </div>
+                                <button class="bonus__btn btn-line">
+                                    ЧИТАТЬ ПОЛНОСТЬЮ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+    <a href="" class="footer__logo logo">
+        <img src="img/logo.svg" alt="">
+    </a>
+    <div class="footer__top">
+        <div class="footer__col">
+            <div class="footer__title">Скачать приложение</div>
+            <a href="" class="footer__store m-btn m-btn-black">
+                <img src="img/store.svg" alt="">
+            </a>
+            <a href="" class="footer__store m-btn m-btn-black">
+                <img src="img/store2.svg" alt="">
+            </a>
+        </div>
+        <div class="footer__col">
+            <div class="footer__title">Контакты</div>
+            <div class="footer__links">
+                <a href="tel:+78126657070" class="footer__link">+7 (812) 665-70-70</a>
+                <a href="mailto:delivery@bona-capona.ru" class="footer__link">delivery@bona-capona.ru</a>
+            </div>
+            <div class="footer__socials">
+                <a href="" class="footer__social">
+                    <img src="img/fb.svg" alt="">
+                </a>
+                <a href="" class="footer__social">
+                    <img src="img/twitter.svg" alt="">
+                </a>
+                <a href="" class="footer__social">
+                    <img src="img/instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <div class="footer__title">Доставка</div>
+            <div class="footer__links">
+                <a href="" class="footer__link">Меню</a>
+                <a href="" class="footer__link">Карта и условия доставки</a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <div class="footer__title">Подписаться на новости</div>
+            <form action="" class="footer__form">
+                <fieldset class="fg">
+                    <input type="email" placeholder="Ваш email">
+                </fieldset>
+                <button class="footer__btn m-btn m-btn-black-outline">
+                    <svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.28938 0.304031C0.103861 0.502796 0 0.769622 0 1.04747C0 1.32532 0.103861 1.59215 0.28938 1.79091L10.6541 12.918L0.28938 24.0429C0.103861 24.2417 0 24.5085 0 24.7863C0 25.0642 0.103861 25.331 0.28938 25.5298C0.379555 25.6267 0.48737 25.7037 0.606461 25.7563C0.725552 25.8089 0.853505 25.836 0.982769 25.836C1.11203 25.836 1.23999 25.8089 1.35908 25.7563C1.47817 25.7037 1.58598 25.6267 1.67616 25.5298L12.6981 13.6948C12.8917 13.487 13 13.2083 13 12.918C13 12.6278 12.8917 12.349 12.6981 12.1412L1.67616 0.306257C1.58598 0.209335 1.47817 0.132301 1.35908 0.0797003C1.23999 0.0270999 1.11203 0 0.982769 0C0.853505 0 0.725552 0.0270999 0.606461 0.0797003C0.48737 0.132301 0.379555 0.209335 0.28938 0.306257V0.304031Z" fill="black"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__c footer__link2">© ООО “BPG” 1999-2021</div>
+        <a href="" class="footer__link2">Пользовательское соглашение</a>
+        <a href="" class="footer__conf footer__link2">Политика конфиденциальности</a>
+    </div>
+</div>
+
+        </footer>
+    </div>
+
+
+    <div class="modal fade restaurant-modal" id="restaurantModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close.svg" alt="">
+        </button>
+
+
+        <h2 class="restaurant-modal__title display3">
+            ВЫБЕРИТЕ РЕСТОРАН
+        </h2>
+
+        <div class="restaurant-modal__grid">
+            <div class="restaurant-card">
+    <div class="restaurant-card__img" style="background-image: url(img/restaurant.webp);">
+        <img src="img/restaurant5.svg" alt="">
+    </div>
+    <h3 class="restaurant-card__title display6">
+        Удивительная сеть ресторанов, в которых вы окунётесь атмосферу солнечной и гостеприимной Италии!
+    </h3>
+    <div class="restaurant-card__bottom">
+        <div class="restaurant-card__subtitle display6 gray-text">Зона доставки</div>
+        <div class="restaurant-card__delivery-area display6">
+            Почти весь г. Санкт-Петербург
+        </div>
+    </div>
+</div>
+
+            <div class="restaurant-card">
+    <div class="restaurant-card__img" style="background-image: url(img/restaurant2.webp);">
+        <img src="img/restaurant6.svg" alt="">
+    </div>
+    <h3 class="restaurant-card__title display6">
+        Смешанная кухня с необычными ингридиентами. Мясные блюд, японские суши и роллы. В напитках упор на вина.
+    </h3>
+    <div class="restaurant-card__bottom">
+        <div class="restaurant-card__subtitle display6 gray-text">Зона доставки</div>
+        <div class="restaurant-card__delivery-area display6">
+            Центр г. Пушкин
+        </div>
+    </div>
+</div>
+
+            <div class="restaurant-card">
+    <div class="restaurant-card__img" style="background-image: url(img/restaurant3.webp);">
+        <img src="img/restaurant7.svg" alt="">
+    </div>
+    <h3 class="restaurant-card__title display6">
+        Привычные блюда разных кухонь мира и авторские вариации на них. В ресторане собрали широкую подробрку вин и пива.
+    </h3>
+    <div class="restaurant-card__bottom">
+        <div class="restaurant-card__subtitle display6 gray-text">Зона доставки</div>
+        <div class="restaurant-card__delivery-area display6">
+            Центр г. Санкт-Петербург
+        </div>
+    </div>
+</div>
+
+            <div class="restaurant-card">
+    <div class="restaurant-card__img" style="background-image: url(img/restaurant4.webp);">
+        <img src="img/restaurant8.svg" alt="">
+    </div>
+    <h3 class="restaurant-card__title display6">
+        Ресторан ближневосточной кухни, в котором тесно переплелись восточные и европейские традиции.
+    </h3>
+    <div class="restaurant-card__bottom">
+        <div class="restaurant-card__subtitle display6 gray-text">Зона доставки</div>
+        <div class="restaurant-card__delivery-area display6">
+            Почти весь г. Санкт-Петербург
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade address-modal" id="addressModal" aria-hidden="true">
+    <div class="modal-dialog tabs-parent">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close.svg" alt="">
+        </button>
+
+
+        <h2 class="address-modal__title display4">
+            Укажите адрес доставки или выберите ресторан для самовывоза, чтобы сделать заказ:
+        </h2>
+
+        <div class="address-modal__tabs tabs">
+            <div class="tab _active" data-tab="delivery">
+                Доставка
+            </div>
+            <div class="tab" data-tab="self">
+                Самовывоз
+            </div>
+        </div>
+
+        <div class="tab-content tab-delivery _active">
+            <div class="address-modal__hint">
+                К сожалению, мы не доставляем на выбранный адрес. Поменяйте адрес или выберите опцию «Самовывоз»
+            </div>
+            <div class="address-modal__delivery">
+                <fieldset class="fg fg-hint">
+                    <label>улица</label>
+                    <input type="text">
+                    <div class="fg__hint">
+                        <div class="fg__hint-item">
+                            <div class="fg__hint-title">офис</div>
+                            <div class="fg__hint-desc">Звернинская</div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="fg">
+                    <label>дом</label>
+                    <input type="text">
+                </fieldset>
+                <fieldset class="fg">
+                    <label>кв/офис</label>
+                    <input type="text">
+                </fieldset>
+            </div>
+            <div class="address-modal__map">
+
+                <div class="map" id="map2">
+
+                </div>
+            </div>
+            <div class="address-modal__nav">
+                <a href="" class="address-modal__link btn-line">
+                    ДОСТАВИТЬ СЮДА
+                </a>
+            </div>
+        </div>
+        <div class="tab-content tab-self">
+            <div class="address-modal__self">
+                <fieldset class="fg">
+                    <label>Ресторан</label>
+                    <select>
+                        <option>Московский пр-т., 179</option>
+                        <option>Московский пр-т., 179 2</option>
+                        <option>Московский пр-т., 179 3</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="address-modal__map">
+                <div class="map" id="map1">
+
+                </div>
+            </div>
+            <div class="address-modal__nav">
+                <a href="" class="address-modal__link btn-line">
+                    ДОСТАВИТЬ СЮДА
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="modal fade reg-modal" id="regModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close.svg" alt="">
+        </button>
+
+
+        <h2 class="reg-modal__title display4">
+            здравствуйте!
+        </h2>
+        <p class="reg-modal__desc">
+            Для регистрации и оформления заказа введите номер телефона
+        </p>
+        <form class="reg-modal__form">
+            <fieldset class="fg">
+                <input type="tel">
+            </fieldset>
+            <button class="reg-modal__btn btn-line">
+                ПРОДОЛЖИТЬ
+            </button>
+        </form>
+        <div class="reg-modal__hint">
+            Нажимая кнопку «Продолжить» , вы принимаете
+            <a href="">политику конфиденциальности</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade reg-modal reg-modal2" id="regModal2" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close.svg" alt="">
+        </button>
+
+
+        <h2 class="reg-modal__title display4">
+            ВВЕДИТЕ КОД
+        </h2>
+        <p class="reg-modal__desc">
+            Мы его отправили на +7 931 236 04 41
+        </p>
+        <button class="reg-modal__change-phone">
+            Изменить номер
+        </button>
+        <form class="reg-modal__form">
+            <fieldset class="fg fg--num">
+                <input type="number" value="1092">
+            </fieldset>
+            <button class="reg-modal__btn2">
+                получить новый код через 3 сек.
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade order-modal" id="orderModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="order-modal__title display6">
+            ВЫ ЗАКАЗАЛИ
+        </h2>
+        <div class="order-modal__items">
+            <div class="order-modal__item">
+                <h3 class="order-modal__item-title">
+                    Тёплый салат из обжаренных кальмаров
+                </h3>
+                <div class="order-modal__item-info">
+                    <div class="order-modal__item-weight">200 гр.</div>
+                    <div class="order-modal__item-count">1 шт</div>
+                </div>
+            </div>
+            <div class="order-modal__item">
+                <h3 class="order-modal__item-title">
+                    Тёплый салат из обжаренных кальмаров
+                </h3>
+                <div class="order-modal__item-info">
+                    <div class="order-modal__item-weight">200 гр.</div>
+                    <div class="order-modal__item-count">1 шт</div>
+                </div>
+            </div>
+            <div class="order-modal__item">
+                <h3 class="order-modal__item-title">
+                    Тёплый салат из обжаренных кальмаров
+                </h3>
+                <div class="order-modal__item-info">
+                    <div class="order-modal__item-weight">200 гр.</div>
+                    <div class="order-modal__item-count">1 шт</div>
+                </div>
+            </div>
+            <div class="order-modal__item">
+                <h3 class="order-modal__item-title">
+                    Тёплый салат из обжаренных кальмаров
+                </h3>
+                <div class="order-modal__item-info">
+                    <div class="order-modal__item-weight">200 гр.</div>
+                    <div class="order-modal__item-count">1 шт</div>
+                </div>
+            </div>
+        </div>
+        <button class="order-modal__btn btn-line">
+            повторить ЗАКАЗ
+        </button>
+    </div>
+</div>
+
+<div class="modal fade privacy-modal" id="privacyModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="privacy-modal__title display2">
+            Политика в отношении <br> обработки персональных данных
+        </h2>
+        <div class="privacy-modal__content">
+            <p>1. Общие положения</p>
+            <p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» (далее - Закон о персональных данных) и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных, предпринимаемые Михайловым Иваном Сергеевичем (далее – Оператор).</p>
+            <p>1.1. Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и свобод человека и гражданина при обработке его персональных данных, в том числе защиты прав на неприкосновенность частной жизни, личную и семейную тайну.</p>
+            <p>1.2. Настоящая политика Оператора в отношении обработки персональных данных (далее – Политика) применяется ко всей информации, которую Оператор может получить о посетителях веб-сайта httpsː//thismywebsite·com.</p>
+            <p>2. Основные понятия, используемые в Политике</p>
+            <p>2.1. Автоматизированная обработка персональных данных – обработка персональных данных с помощью средств вычислительной техники.</p>
+            <p>2.2. Блокирование персональных данных – временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных).</p>
+            <p>2.3. Веб-сайт – совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу httpsː//thismywebsite·com.</p>
+            <p>2.4. Информационная система персональных данных — совокупность содержащихся в базах данных персональных данных, и обеспечивающих их обработку информационных технологий и технических средств.</p>
+            <p>2.5. Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных.</p>
+            <p>2.6. Обработка персональных данных – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</p>
+            <p>2.7. Оператор – государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с другими лицами организующие и (или) осуществляющие обработку персональных данных, а также определяющие цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</p>
+            <p>2.8. Персональные данные – любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта httpsː//thismywebsite·com.</p>
+            <p>2.9. Персональные данные, разрешенные субъектом персональных данных для распространения, - персональные данные, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных путем дачи согласия на обработку персональных данных, разрешенных субъектом персональных данных для распространения в порядке, предусмотренном Законом о персональных данных (далее - персональные данные, разрешенные для распространения).</p>
+            <p>2.10. Пользователь – любой посетитель веб-сайта httpsː//thismywebsite·com.</p>
+            <p>2.11. Предоставление персональных данных – действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц.</p>
+            <p>2.12. Распространение персональных данных – любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом.</p>
+            <p>2.13. Трансграничная передача персональных данных – передача персональных данных на территорию иностранного государства органу власти иностранного государства, иностранному физическому или иностранному юридическому лицу.</p>
+            <p>2.14. Уничтожение персональных данных – любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и (или) уничтожаются материальные носители персональных данных.</p>
+            <p>3. Основные права и обязанности Оператора</p>
+            <p>3.1. Оператор имеет право:</p>
+            <p>– получать от субъекта персональных данных достоверные информацию и/или документы, содержащие персональные данные;</p>
+            <p>– в случае отзыва субъектом персональных данных согласия на обработку персональных данных Оператор вправе продолжить обработку персональных данных без согласия субъекта персональных данных при наличии оснований, указанных в Законе о персональных данных;</p>
+            <p>– самостоятельно определять состав и перечень мер, необходимых и достаточных для обеспечения выполнения обязанностей, предусмотренных Законом о персональных данных и принятыми в соответствии с ним нормативными правовыми актами, если иное не предусмотрено Законом о персональных данных или другими федеральными законами.</p>
+            <p>3.2. Оператор обязан:</p>
+            <p>– предоставлять субъекту персональных данных по его просьбе информацию, касающуюся обработки его персональных данных;</p>
+            <p>– организовывать обработку персональных данных в порядке, установленном действующим законодательством РФ;</p>
+            <p>– отвечать на обращения и запросы субъектов персональных данных и их законных представителей в соответствии с требованиями Закона о персональных данных;</p>
+            <p>– сообщать в уполномоченный орган по защите прав субъектов персональных данных по запросу этого органа необходимую информацию в течение 30 дней с даты получения такого запроса;</p>
+            <p>– публиковать или иным образом обеспечивать неограниченный доступ к настоящей Политике в отношении обработки персональных данных;</p>
+            <p>– принимать правовые, организационные и технические меры для защиты персональных данных от неправомерного или случайного доступа к ним, уничтожения, изменения, блокирования, копирования, предоставления, распространения персональных данных, а также от иных неправомерных действий в отношении персональных данных;</p>
+            <p>– прекратить передачу (распространение, предоставление, доступ) персональных данных, прекратить обработку и уничтожить персональные данные в порядке и случаях, предусмотренных Законом о персональных данных;</p>
+            <p>– исполнять иные обязанности, предусмотренные Законом о персональных данных.</p>
+            <p>4. Основные права и обязанности субъектов персональных данных</p>
+            <p>4.1. Субъекты персональных данных имеют право:</p>
+            <p>– получать информацию, касающуюся обработки его персональных данных, за исключением случаев, предусмотренных федеральными законами. Сведения предоставляются субъекту персональных данных Оператором в доступной форме, и в них не должны содержаться персональные данные, относящиеся к другим субъектам персональных данных, за исключением случаев, когда имеются законные основания для раскрытия таких персональных данных. Перечень информации и порядок ее получения установлен Законом о персональных данных;</p>
+            <p>– требовать от оператора уточнения его персональных данных, их блокирования или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными, незаконно полученными или не являются необходимыми для заявленной цели обработки, а также принимать предусмотренные законом меры по защите своих прав;</p>
+            <p>– выдвигать условие предварительного согласия при обработке персональных данных в целях продвижения на рынке товаров, работ и услуг;</p>
+            <p>– на отзыв согласия на обработку персональных данных;</p>
+            <p>– обжаловать в уполномоченный орган по защите прав субъектов персональных данных или в судебном порядке неправомерные действия или бездействие Оператора при обработке его персональных данных;</p>
+            <p>– на осуществление иных прав, предусмотренных законодательством РФ.</p>
+            <p>4.2. Субъекты персональных данных обязаны:</p>
+            <p>– предоставлять Оператору достоверные данные о себе;</p>
+            <p>– сообщать Оператору об уточнении (обновлении, изменении) своих персональных данных.</p>
+            <p>4.3. Лица, передавшие Оператору недостоверные сведения о себе, либо сведения о другом субъекте персональных данных без согласия последнего, несут ответственность в соответствии с законодательством РФ.</p>
+            <p>5. Оператор может обрабатывать следующие персональные данные Пользователя</p>
+            <p>5.1. Фамилия, имя, отчество.</p>
+            <p>5.2. Электронный адрес.</p>
+            <p>5.3. Номера телефонов.</p>
+            <p>5.4. Также на сайте происходит сбор и обработка обезличенных данных о посетителях (в т.ч. файлов «cookie») с помощью сервисов интернет-статистики (Яндекс Метрика и Гугл Аналитика и других).</p>
+            <p>5.5. Вышеперечисленные данные далее по тексту Политики объединены общим понятием Персональные данные.</p>
+            <p>5.6. Обработка специальных категорий персональных данных, касающихся расовой, национальной принадлежности, политических взглядов, религиозных или философских убеждений, интимной жизни, Оператором не осуществляется.</p>
+            <p>5.7. Обработка персональных данных, разрешенных для распространения, из числа специальных категорий персональных данных, указанных в ч. 1 ст. 10 Закона о персональных данных, допускается, если соблюдаются запреты и условия, предусмотренные ст. 10.1 Закона о персональных данных.</p>
+            <p>5.8. Согласие Пользователя на обработку персональных данных, разрешенных для распространения, оформляется отдельно от других согласий на обработку его персональных данных. При этом соблюдаются условия, предусмотренные, в частности, ст. 10.1 Закона о персональных данных. Требования к содержанию такого согласия устанавливаются уполномоченным органом по защите прав субъектов персональных данных.</p>
+            <p>5.8.1 Согласие на обработку персональных данных, разрешенных для распространения, Пользователь предоставляет Оператору непосредственно.</p>
+            <p>5.8.2 Оператор обязан в срок не позднее трех рабочих дней с момента получения указанного согласия Пользователя опубликовать информацию об условиях обработки, о наличии запретов и условий на обработку неограниченным кругом лиц персональных данных, разрешенных для распространения.</p>
+            <p>5.8.3 Передача (распространение, предоставление, доступ) персональных данных, разрешенных субъектом персональных данных для распространения, должна быть прекращена в любое время по требованию субъекта персональных данных. Данное требование должно включать в себя фамилию, имя, отчество (при наличии), контактную информацию (номер телефона, адрес электронной почты или почтовый адрес) субъекта персональных данных, а также перечень персональных данных, обработка которых подлежит прекращению. Указанные в данном требовании персональные данные могут обрабатываться только Оператором, которому оно направлено.</p>
+            <p>5.8.4 Согласие на обработку персональных данных, разрешенных для распространения, прекращает свое действие с момента поступления Оператору требования, указанного в п. 5.8.3 настоящей Политики в отношении обработки персональных данных.</p>
+            <p>6. Принципы обработки персональных данных</p>
+            <p>6.1. Обработка персональных данных осуществляется на законной и справедливой основе.</p>
+            <p>6.2. Обработка персональных данных ограничивается достижением конкретных, заранее определенных и законных целей. Не допускается обработка персональных данных, несовместимая с целями сбора персональных данных.</p>
+            <p>6.3. Не допускается объединение баз данных, содержащих персональные данные, обработка которых осуществляется в целях, несовместимых между собой.</p>
+            <p>6.4. Обработке подлежат только персональные данные, которые отвечают целям их обработки.</p>
+            <p>6.5. Содержание и объем обрабатываемых персональных данных соответствуют заявленным целям обработки. Не допускается избыточность обрабатываемых персональных данных по отношению к заявленным целям их обработки.</p>
+            <p>6.6. При обработке персональных данных обеспечивается точность персональных данных, их достаточность, а в необходимых случаях и актуальность по отношению к целям обработки персональных данных. Оператор принимает необходимые меры и/или обеспечивает их принятие по удалению или уточнению неполных или неточных данных.</p>
+            <p>6.7. Хранение персональных данных осуществляется в форме, позволяющей определить субъекта персональных данных, не дольше, чем этого требуют цели обработки персональных данных, если срок хранения персональных данных не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому является субъект персональных данных. Обрабатываемые персональные данные уничтожаются либо обезличиваются по достижении целей обработки или в случае утраты необходимости в достижении этих целей, если иное не предусмотрено федеральным законом.</p>
+            <p>7. Цели обработки персональных данных</p>
+            <p>7.1. Цель обработки персональных данных Пользователя:</p>
+            <p>– информирование Пользователя посредством отправки электронных писем;</p>
+            <p>– заключение, исполнение и прекращение гражданско-правовых договоров;</p>
+            <p>– предоставление доступа Пользователю к сервисам, информации и/или материалам, содержащимся на веб-сайте httpsː//thismywebsite·com.</p>
+            <p>7.2. Также Оператор имеет право направлять Пользователю уведомления о новых продуктах и услугах, специальных предложениях и различных событиях. Пользователь всегда может отказаться от получения информационных сообщений, направив Оператору письмо на адрес электронной почты privacy@thismywebsite·com с пометкой «Отказ от уведомлений о новых продуктах и услугах и специальных предложениях».</p>
+            <p>7.3. Обезличенные данные Пользователей, собираемые с помощью сервисов интернет-статистики, служат для сбора информации о действиях Пользователей на сайте, улучшения качества сайта и его содержания.</p>
+            <p>8. Правовые основания обработки персональных данных</p>
+            <p>8.1. Правовыми основаниями обработки персональных данных Оператором являются:</p>
+            <p>– перечислите нормативно-правовые акты, регулирующие отношения, связанные с вашей деятельностью, например, если ваша деятельность связана с информационными технологиями, в частности с созданием сайтов, то здесь можно указать Федеральный закон "Об информации, информационных технологиях и о защите информации" от 27.07.2006 N 149-ФЗ;</p>
+            <p>– уставные документы Оператора;</p>
+            <p>– договоры, заключаемые между оператором и субъектом персональных данных;</p>
+            <p>– федеральные законы, иные нормативно-правовые акты в сфере защиты персональных данных;</p>
+            <p>– согласия Пользователей на обработку их персональных данных, на обработку персональных данных, разрешенных для распространения.</p>
+            <p>8.2. Оператор обрабатывает персональные данные Пользователя только в случае их заполнения и/или отправки Пользователем самостоятельно через специальные формы, расположенные на сайте httpsː//thismywebsite·com или направленные Оператору посредством электронной почты. Заполняя соответствующие формы и/или отправляя свои персональные данные Оператору, Пользователь выражает свое согласие с данной Политикой.</p>
+            <p>8.3. Оператор обрабатывает обезличенные данные о Пользователе в случае, если это разрешено в настройках браузера Пользователя (включено сохранение файлов «cookie» и использование технологии JavaScript).</p>
+            <p>8.4. Субъект персональных данных самостоятельно принимает решение о предоставлении его персональных данных и дает согласие свободно, своей волей и в своем интересе.</p>
+            <p>9. Условия обработки персональных данных</p>
+            <p>9.1. Обработка персональных данных осуществляется с согласия субъекта персональных данных на обработку его персональных данных.</p>
+            <p>9.2. Обработка персональных данных необходима для достижения целей, предусмотренных международным договором Российской Федерации или законом, для осуществления возложенных законодательством Российской Федерации на оператора функций, полномочий и обязанностей.</p>
+            <p>9.3. Обработка персональных данных необходима для осуществления правосудия, исполнения судебного акта, акта другого органа или должностного лица, подлежащих исполнению в соответствии с законодательством Российской Федерации об исполнительном производстве.</p>
+            <p>9.4. Обработка персональных данных необходима для исполнения договора, стороной которого либо выгодоприобретателем или поручителем по которому является субъект персональных данных, а также для заключения договора по инициативе субъекта персональных данных или договора, по которому субъект персональных данных будет являться выгодоприобретателем или поручителем.</p>
+            <p>9.5. Обработка персональных данных необходима для осуществления прав и законных интересов оператора или третьих лиц либо для достижения общественно значимых целей при условии, что при этом не нарушаются права и свободы субъекта персональных данных.</p>
+            <p>9.6. Осуществляется обработка персональных данных, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных либо по его просьбе (далее – общедоступные персональные данные).</p>
+            <p>9.7. Осуществляется обработка персональных данных, подлежащих опубликованию или обязательному раскрытию в соответствии с федеральным законом.</p>
+            <p>10. Порядок сбора, хранения, передачи и других видов обработки персональных данных</p>
+            <p>Безопасность персональных данных, которые обрабатываются Оператором, обеспечивается путем реализации правовых, организационных и технических мер, необходимых для выполнения в полном объеме требований действующего законодательства в области защиты персональных данных.</p>
+            <p>10.1. Оператор обеспечивает сохранность персональных данных и принимает все возможные меры, исключающие доступ к персональным данным неуполномоченных лиц.</p>
+            <p>10.2. Персональные данные Пользователя никогда, ни при каких условиях не будут переданы третьим лицам, за исключением случаев, связанных с исполнением действующего законодательства либо в случае, если субъектом персональных данных дано согласие Оператору на передачу данных третьему лицу для исполнения обязательств по гражданско-правовому договору.</p>
+            <p>10.3. В случае выявления неточностей в персональных данных, Пользователь может актуализировать их самостоятельно, путем направления Оператору уведомление на адрес электронной почты Оператора privacy@thismywebsite·com с пометкой «Актуализация персональных данных».</p>
+            <p>10.4. Срок обработки персональных данных определяется достижением целей, для которых были собраны персональные данные, если иной срок не предусмотрен договором или действующим законодательством.Пользователь может в любой момент отозвать свое согласие на обработку персональных данных, направив Оператору уведомление посредством электронной почты на электронный адрес Оператора privacy@thismywebsite·com с пометкой «Отзыв согласия на обработку персональных данных».</p>
+            <p>10.5. Вся информация, которая собирается сторонними сервисами, в том числе платежными системами, средствами связи и другими поставщиками услуг, хранится и обрабатывается указанными лицами (Операторами) в соответствии с их Пользовательским соглашением и Политикой конфиденциальности. Субъект персональных данных и/или Пользователь обязан самостоятельно своевременно ознакомиться с указанными документами. Оператор не несет ответственность за действия третьих лиц, в том числе указанных в настоящем пункте поставщиков услуг.</p>
+            <p>10.6. Установленные субъектом персональных данных запреты на передачу (кроме предоставления доступа), а также на обработку или условия обработки (кроме получения доступа) персональных данных, разрешенных для распространения, не действуют в случаях обработки персональных данных в государственных, общественных и иных публичных интересах, определенных законодательством РФ.</p>
+            <p>10.7. Оператор при обработке персональных данных обеспечивает конфиденциальность персональных данных.</p>
+            <p>10.8. Оператор осуществляет хранение персональных данных в форме, позволяющей определить субъекта персональных данных, не дольше, чем этого требуют цели обработки персональных данных, если срок хранения персональных данных не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому является субъект персональных данных.</p>
+            <p>10.9. Условием прекращения обработки персональных данных может являться достижение целей обработки персональных данных, истечение срока действия согласия субъекта персональных данных или отзыв согласия субъектом персональных данных, а также выявление неправомерной обработки персональных данных.</p>
+            <p>11. Перечень действий, производимых Оператором с полученными персональными данными</p>
+            <p>11.1. Оператор осуществляет сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление и уничтожение персональных данных.</p>
+            <p>11.2. Оператор осуществляет автоматизированную обработку персональных данных с получением и/или передачей полученной информации по информационно-телекоммуникационным сетям или без таковой.</p>
+            <p>12. Трансграничная передача персональных данных</p>
+            <p>12.1. Оператор до начала осуществления трансграничной передачи персональных данных обязан убедиться в том, что иностранным государством, на территорию которого предполагается осуществлять передачу персональных данных, обеспечивается надежная защита прав субъектов персональных данных.</p>
+            <p>12.2. Трансграничная передача персональных данных на территории иностранных государств, не отвечающих вышеуказанным требованиям, может осуществляться только в случае наличия согласия в письменной форме субъекта персональных данных на трансграничную передачу его персональных данных и/или исполнения договора, стороной которого является субъект персональных данных.</p>
+            <p>13. Конфиденциальность персональных данных</p>
+            <p>Оператор и иные лица, получившие доступ к персональным данным, обязаны не раскрывать третьим лицам и не распространять персональные данные без согласия субъекта персональных данных, если иное не предусмотрено федеральным законом.</p>
+            <p>14. Заключительные положения</p>
+            <p>14.1. Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки его персональных данных, обратившись к Оператору с помощью электронной почты privacy@thismywebsite·com.</p>
+            <p>14.2. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией.</p>
+            <p>14.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу httpsː//thismywebsite·com/privacy/.</p>
+
+        </div>
+        <button class="privacy-modal__btn m-btn m-btn-black" data-bs-dismiss="modal" aria-label="Close">
+            Я согласен
+        </button>
+    </div>
+</div>
+
+<div class="modal fade order-modal2" id="orderModal2" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="order-modal2__title display4">
+            по данному адресу не доставляются следующие блюда
+        </h2>
+        <p class="order-modal2__desc">Тёплый салат из обжаренных кальмаров</p>
+        <button class="order-modal2__btn btn-line">
+            ДОСТАВИТЬ НА УКАЗАННЫЙ АДРЕС
+        </button>
+        <button class="order-modal2__cancel gray-btn" data-bs-dismiss="modal" aria-label="Close">
+            Отмена
+        </button>
+    </div>
+</div>
+
+<div class="modal fade order-modal2" id="orderModal3" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="order-modal2__title display4">
+            Изменение адреса
+        </h2>
+        <p class="order-modal2__desc">
+            После изменения мы проверим наличие блюда и возможность доставки по новому адресу
+        </p>
+        <button class="order-modal2__btn btn-line">
+            ИЗМЕНИТЬ АДРЕС
+        </button>
+        <button class="order-modal2__cancel gray-btn" data-bs-dismiss="modal" aria-label="Close">
+            Отмена
+        </button>
+    </div>
+</div>
+
+<div class="modal fade photo-modal" id="photoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="photo-modal__title display4">
+            изменить фотографию
+        </h2>
+
+        <div class="photo-modal__grid">
+            <div class="photo-modal__col">
+                <div class="avatar">
+                    <img src="img/avatar.webp" alt="">
+                </div>
+            </div>
+            <div class="photo-modal__col">
+                <div class="avatar">
+                    <img src="img/avatar2.webp" alt="">
+                </div>
+            </div>
+            <div class="photo-modal__col">
+                <div class="avatar">
+                    <img src="img/avatar3.webp" alt="">
+                </div>
+            </div>
+            <div class="photo-modal__col">
+                <div class="photo-input">
+                    <input type="file">
+                    <label>
+                        <img src="img/camera.svg" alt="">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade rating-modal"  id="ratingModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="rating-modal__title display6">
+            оцените блюда
+        </h2>
+        <p class="rating-modal__desc">И получите повышенный кэшбек на следующий заказ</p>
+        <p class="rating-modal__desc2">4 блюда ожидают вашей оценки</p>
+
+        <button class="rating-modal__btn btn-line">
+            ОЦЕНИТЬ
+        </button>
+    </div>
+</div>
+
+<div class="modal fade rating-modal2" id="ratingModal2" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="rating-modal2__title display4">
+            оцените блюдо
+        </h2>
+
+        <div class="rating-modal2__item">
+            <div class="rating-modal2__img">
+                <img src="img/dish16.webp" alt="">
+            </div>
+            <div class="rating-modal2__name">
+                1 x Цезарь с <br> куриной грудкой
+            </div>
+        </div>
+        <div class="rating-modal2__input">
+            <div class="rating" data-total-rating="0" data-rating-code="1">
+                <div class="rating__item" data-rating-value="5">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.5105 7.58653L14.0556 6.79376L11.6171 1.8502C11.5505 1.71485 11.4409 1.60528 11.3056 1.53868C10.9661 1.3711 10.5536 1.51075 10.3839 1.8502L7.94543 6.79376L2.49055 7.58653C2.34016 7.60802 2.20266 7.67891 2.09739 7.78634C1.97012 7.91715 1.89999 8.09313 1.9024 8.27563C1.90482 8.45812 1.97959 8.63218 2.11028 8.75958L6.05696 12.6074L5.12454 18.0408C5.10267 18.1672 5.11666 18.2972 5.16491 18.4161C5.21316 18.5349 5.29375 18.6379 5.39754 18.7132C5.50132 18.7886 5.62415 18.8334 5.75209 18.8425C5.88004 18.8517 6.00798 18.8247 6.12141 18.7649L11.0005 16.1996L15.8796 18.7649C16.0128 18.8358 16.1675 18.8594 16.3157 18.8336C16.6896 18.7691 16.9409 18.4147 16.8765 18.0408L15.9441 12.6074L19.8907 8.75958C19.9982 8.65431 20.0691 8.5168 20.0906 8.36641C20.1486 7.99044 19.8864 7.64239 19.5105 7.58653Z" fill="black" fill-opacity="0.2"/>
+    </svg>
+</div>
+<div class="rating__item" data-rating-value="4">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.5105 7.58653L14.0556 6.79376L11.6171 1.8502C11.5505 1.71485 11.4409 1.60528 11.3056 1.53868C10.9661 1.3711 10.5536 1.51075 10.3839 1.8502L7.94543 6.79376L2.49055 7.58653C2.34016 7.60802 2.20266 7.67891 2.09739 7.78634C1.97012 7.91715 1.89999 8.09313 1.9024 8.27563C1.90482 8.45812 1.97959 8.63218 2.11028 8.75958L6.05696 12.6074L5.12454 18.0408C5.10267 18.1672 5.11666 18.2972 5.16491 18.4161C5.21316 18.5349 5.29375 18.6379 5.39754 18.7132C5.50132 18.7886 5.62415 18.8334 5.75209 18.8425C5.88004 18.8517 6.00798 18.8247 6.12141 18.7649L11.0005 16.1996L15.8796 18.7649C16.0128 18.8358 16.1675 18.8594 16.3157 18.8336C16.6896 18.7691 16.9409 18.4147 16.8765 18.0408L15.9441 12.6074L19.8907 8.75958C19.9982 8.65431 20.0691 8.5168 20.0906 8.36641C20.1486 7.99044 19.8864 7.64239 19.5105 7.58653Z" fill="black" fill-opacity="0.2"/>
+    </svg>
+</div>
+<div class="rating__item" data-rating-value="3">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.5105 7.58653L14.0556 6.79376L11.6171 1.8502C11.5505 1.71485 11.4409 1.60528 11.3056 1.53868C10.9661 1.3711 10.5536 1.51075 10.3839 1.8502L7.94543 6.79376L2.49055 7.58653C2.34016 7.60802 2.20266 7.67891 2.09739 7.78634C1.97012 7.91715 1.89999 8.09313 1.9024 8.27563C1.90482 8.45812 1.97959 8.63218 2.11028 8.75958L6.05696 12.6074L5.12454 18.0408C5.10267 18.1672 5.11666 18.2972 5.16491 18.4161C5.21316 18.5349 5.29375 18.6379 5.39754 18.7132C5.50132 18.7886 5.62415 18.8334 5.75209 18.8425C5.88004 18.8517 6.00798 18.8247 6.12141 18.7649L11.0005 16.1996L15.8796 18.7649C16.0128 18.8358 16.1675 18.8594 16.3157 18.8336C16.6896 18.7691 16.9409 18.4147 16.8765 18.0408L15.9441 12.6074L19.8907 8.75958C19.9982 8.65431 20.0691 8.5168 20.0906 8.36641C20.1486 7.99044 19.8864 7.64239 19.5105 7.58653Z" fill="black" fill-opacity="0.2"/>
+    </svg>
+</div>
+<div class="rating__item" data-rating-value="2">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.5105 7.58653L14.0556 6.79376L11.6171 1.8502C11.5505 1.71485 11.4409 1.60528 11.3056 1.53868C10.9661 1.3711 10.5536 1.51075 10.3839 1.8502L7.94543 6.79376L2.49055 7.58653C2.34016 7.60802 2.20266 7.67891 2.09739 7.78634C1.97012 7.91715 1.89999 8.09313 1.9024 8.27563C1.90482 8.45812 1.97959 8.63218 2.11028 8.75958L6.05696 12.6074L5.12454 18.0408C5.10267 18.1672 5.11666 18.2972 5.16491 18.4161C5.21316 18.5349 5.29375 18.6379 5.39754 18.7132C5.50132 18.7886 5.62415 18.8334 5.75209 18.8425C5.88004 18.8517 6.00798 18.8247 6.12141 18.7649L11.0005 16.1996L15.8796 18.7649C16.0128 18.8358 16.1675 18.8594 16.3157 18.8336C16.6896 18.7691 16.9409 18.4147 16.8765 18.0408L15.9441 12.6074L19.8907 8.75958C19.9982 8.65431 20.0691 8.5168 20.0906 8.36641C20.1486 7.99044 19.8864 7.64239 19.5105 7.58653Z" fill="black" fill-opacity="0.2"/>
+    </svg>
+</div>
+<div class="rating__item" data-rating-value="1">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.5105 7.58653L14.0556 6.79376L11.6171 1.8502C11.5505 1.71485 11.4409 1.60528 11.3056 1.53868C10.9661 1.3711 10.5536 1.51075 10.3839 1.8502L7.94543 6.79376L2.49055 7.58653C2.34016 7.60802 2.20266 7.67891 2.09739 7.78634C1.97012 7.91715 1.89999 8.09313 1.9024 8.27563C1.90482 8.45812 1.97959 8.63218 2.11028 8.75958L6.05696 12.6074L5.12454 18.0408C5.10267 18.1672 5.11666 18.2972 5.16491 18.4161C5.21316 18.5349 5.29375 18.6379 5.39754 18.7132C5.50132 18.7886 5.62415 18.8334 5.75209 18.8425C5.88004 18.8517 6.00798 18.8247 6.12141 18.7649L11.0005 16.1996L15.8796 18.7649C16.0128 18.8358 16.1675 18.8594 16.3157 18.8336C16.6896 18.7691 16.9409 18.4147 16.8765 18.0408L15.9441 12.6074L19.8907 8.75958C19.9982 8.65431 20.0691 8.5168 20.0906 8.36641C20.1486 7.99044 19.8864 7.64239 19.5105 7.58653Z" fill="black" fill-opacity="0.2"/>
+    </svg>
+</div>
+
+            </div>
+        </div>
+
+        <fieldset class="rating-modal2__message fg">
+            <label>поделитесь впечетлениями</label>
+            <textarea></textarea>
+        </fieldset>
+
+        <div class="rating-modal2__nav">
+            <div class="rating-modal2__step">Блюда 1/4</div>
+            <button class="rating-modal2__btn btn-line">
+                ОЦЕНИТЬ
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade address-modal2" id="addressModal2" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="address-modal2__title display4">
+            новый адрес
+        </h2>
+
+        <div class="address-modal2__grid">
+            <fieldset class="fg address-modal2__full">
+                <label>название</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg address-modal2__full">
+                <label>улица и дом</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg">
+                <label>парадная</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg">
+                <label>этаж</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg">
+                <label>квартира</label>
+                <input type="text">
+            </fieldset>
+        </div>
+
+        <div class="address-modal2__map">
+            <div class="map" id="map3">
+
+            </div>
+        </div>
+
+        <div class="address-modal2__nav">
+            <button class="address-modal2__btn btn-line">
+                СОХРАНИТЬ
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade address-modal2" id="addressModal3" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close2.svg" alt="">
+        </button>
+
+
+        <h2 class="address-modal2__title display4">
+            редактировать адрес
+        </h2>
+
+        <div class="address-modal2__grid">
+            <fieldset class="fg address-modal2__full">
+                <label>название</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg address-modal2__full">
+                <label>улица и дом</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg">
+                <label>парадная</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg">
+                <label>этаж</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="fg">
+                <label>квартира</label>
+                <input type="text">
+            </fieldset>
+        </div>
+
+        <div class="address-modal2__map">
+            <div class="map" id="map4">
+
+            </div>
+        </div>
+
+        <div class="address-modal2__nav">
+            <button class="address-modal2__btn btn-line">
+                СОХРАНИТЬ
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="modal-backdrop show"></div>-->
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
